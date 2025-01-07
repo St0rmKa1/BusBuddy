@@ -38,8 +38,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `username`, `password`) VALUES
-(6, 'mokbul', '$2y$10$u8QcI.Mb.yxx6FyDnNaIWeVCPOvTG2tS9Y3nBSE6x1IYHZNYz3Upi'),
-(7, 'ada', '$2y$10$v2pGUixxf/f3O5I9WFs6qehY.ryg/WBTCo81Ki4CR.8CyW2U14DH6');
+(1, 'ardh', 'qwerty');
 
 -- --------------------------------------------------------
 
@@ -170,9 +169,9 @@ CREATE TABLE `passenger` (
 --
 
 INSERT INTO `passenger` (`Name`, `Phone`, `Email`, `Password`) VALUES
-('Virat Kohli', '011268666988', 'viratkohli18@yahoo.com', 'AnusjkhaSharma'),
-('Arnab', '01777447550', 'shahrierarnob535@gmail.com', '@RnOb1268'),
-('Joe Root', '01777447551', 'root78@yahoo.com', '123456789');
+('Ardh', '01612403392', 'ardh1213@yahoo.com', 'qwerty'),
+('Rafid', '01745436231', 'rafid123@gmail.com', 'asdfgh'),
+('Shamima', '01777447551', 'shamima4554@yahoo.com', 'zxcvbn');
 
 -- --------------------------------------------------------
 
@@ -194,8 +193,8 @@ CREATE TABLE `reviews` (
 --
 
 INSERT INTO `reviews` (`PNR`, `Rating`, `Review`, `Time`, `Name`, `Email`) VALUES
-(638005, 5, 'sorok pothe bimaner chowa', '2024-04-23 01:58:38', '', ''),
-(811402, 2, 'Very Bad Service', '2024-04-23 01:53:59', '', '');
+(638005, 5, 'Noice', '2025-01-06 01:58:38', '', ''),
+(811402, 1, 'Very Bad Service', '2025-01-06 01:53:59', '', '');
 
 -- --------------------------------------------------------
 
@@ -219,12 +218,10 @@ CREATE TABLE `tickets` (
 --
 
 INSERT INTO `tickets` (`Passenger_Name`, `Phone`, `Bus_Name`, `Boarding_Point`, `Dropping_Point`, `Seat`, `PNR`, `Time`) VALUES
-('Abrar Shahrier Arnab', '01777447550', 'Shyamoli NR', 'Dhaka', 'Kolkata', 'B1', '170973', '2024-04-29 03:19:58'),
-('Abrar Shahrier Arnab', '01777447550', 'Ena Transport Pvt Ltd', 'Dhaka', 'Mymensingh', 'A1', '385142', '2024-04-29 18:12:25'),
-('Abrar Shahrier Arnab', '01777447550', 'Shyamoli NR', 'Dhaka', 'Kolkata', 'A3', '441259', '2024-04-29 03:17:23'),
-('Abrar Shahrier Arnab', '01777447550', 'Ena Transport Pvt Ltd', 'Dhaka', 'Mymensingh', 'A1', '511324', '2024-04-29 18:09:05'),
-('Abrar Shahrier Arnab', '01777447550', 'Shyamoli NR', 'Dhaka', 'Kolkata', 'A4', '750525', '2024-04-29 03:16:17'),
-('Abrar Shahrier Arnab', '01777447550', 'Ena Transport Pvt Ltd', 'Dhaka', 'Mymensingh', 'A1', '968124', '2024-04-29 18:11:22');
+('Ardh', '01612403392', 'Shyamoli NR', 'Dhaka', 'Kolkata', 'B1', '170973', '2025-01-06 03:19:58'),
+('Rafid', '01712432432', 'Ena Transport Pvt Ltd', 'Dhaka', 'Mymensingh', 'A1', '385142', '2025-01-06 18:12:25'),
+('Shamima', '01777447550', 'Shyamoli NR', 'Dhaka', 'Kolkata', 'A3', '441259', '2025-01-06 03:17:23');
+
 
 --
 -- Indexes for dumped tables
